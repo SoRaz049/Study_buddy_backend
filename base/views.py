@@ -14,4 +14,4 @@ def room(request):
     return render(request, 'room.html')
 
 def test():
-    pass
+    return 1
