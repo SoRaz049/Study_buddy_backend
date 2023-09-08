@@ -15,12 +15,9 @@
             {% for room in rooms %}
                 <div>
                     <h5>
-                        {{room.id}} -- {{room.name}}
+                        {{room.id}} -- <a href="/room/{{room.id}}">{{room.name}}</a>
                     </h5>
                 </div>
-                <h1>
-                    My name is Swaraj.
-                </h1>
             {% endfor %}
         </div>
     </div>
